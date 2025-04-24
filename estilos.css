@@ -52,10 +52,10 @@
 }
 
 .fotoPerfil {
-  width: 250px;       /* puedes ajustar el tamaño */
+  width: 250px;      
   height: 250px;
-  border-radius: 50%; /* hace que sea un círculo perfecto */
-  object-fit: cover;  /* asegura que la imagen se recorte bien */
+  border-radius: 50%; 
+  object-fit: cover;  
   display: block;
-  margin: 0 auto 20px auto; /* centrado con espacio debajo */
+  margin: 0 auto 20px auto; 
 }
