@@ -1,37 +1,61 @@
 
+
 .cuerpoP {
-    font-family: 'Segoe UI';
-    background-color: #ffffff;
-    margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
 
-  }
-  
 
-  .encabezado {
-    background-color: #4a90e2;
-    color: white;
-    width: 100%;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-  }
-  
+.encabezado {
+  background-color: #4a90e2;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
 
-  
 
-  .cuerpoBio {
+.cuerpoBio {
+  padding: 40px;
+  overflow-y: auto; 
+  max-width: 800px;
+  margin: 0 auto; 
+  text-align: center; 
+}
 
-    padding: 40px;
-    overflow-y: auto; /* Si el contenido sobrepasa el alto del contenedor verticalmente, aparece una barra de desplazamiento (scroll) vertical. */
-  }
-  
-  .cuerpoBio section {
-    margin-bottom: 40px;
-  }
-  
-  .cuerpoBio h2 {
-    color: #4a90e2;
-    text-decoration: underline;
-    padding-bottom: 5px;
-  }
-  
-  
+
+.cuerpoBio section {
+  margin-bottom: 20px;
+}
+
+
+.cuerpoBio h2 {
+  color: #4a90e2;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.cuerpoBio p {
+  text-align: justify;
+}
+
+
+.piePagina {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.fotoPerfil {
+  width: 250px;       /* puedes ajustar el tamaño */
+  height: 250px;
+  border-radius: 50%; /* hace que sea un círculo perfecto */
+  object-fit: cover;  /* asegura que la imagen se recorte bien */
+  display: block;
+  margin: 0 auto 20px auto; /* centrado con espacio debajo */
+}
